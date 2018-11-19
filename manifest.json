@@ -1,0 +1,21 @@
+{
+    "name": "Chhōe Tâigí",
+    "description": "Hō͘ pīntōaⁿlâng ê Chhōe Tâigí Sûtián kesi",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "author": "TiâuÛi Lâu",
+    "homepage_url": "https://github.com/watain666/chhoe-taigi-chrome",
+    "icons": {
+        "16":  "images/icon16.png",
+        "32":  "images/icon32.png",
+        "48":  "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ]
+}
