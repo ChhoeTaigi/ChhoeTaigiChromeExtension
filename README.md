@@ -1,6 +1,11 @@
 # ChhoeTaigiChromeExtension
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/edkmnkmcckbdmiobolimneaeomiiaiah.svg)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/edkmnkmcckbdmiobolimneaeomiiaiah.svg)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-lightgray.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-![](/images/img1.png)
+---
+
+![](/src/images/img1.png)
 
 Hō͘ pīntōaⁿlâng ê Google Chrome [Chhōe Tâigí](https://chhoe.taigi.info/) Sûtián kesi
 
@@ -22,9 +27,7 @@ súiōng hongsek chin kántan
 
 kā beh chhōe ê jī kho͘ --khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--á!
 
-chhi̍h Góa anchng↓
-
-[![Chhōe Tâigí Webstore](/images/chrome_web_store.png)](https://goo.gl/qod78G)
+[![Chhōe Tâigí Webstore](/src/images/chrome_web_store.png)]([https://goo.gl/qod78G](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah))
 
 ---
 
@@ -32,9 +35,9 @@ chhi̍h Góa anchng↓
 
 [Chhōe Tâigí](https://chhoe.taigi.info/) 是一個很好用的台語辭典網站
 
-不過在網路上看到不會的字就要打開網站，一個字一個字去查，實在是很費功夫
+不過在網路上看到不會的字就要打開網站, 一個字一個字去查, 實在是很費功夫
 
-你說這種時候怎麼辦？
+你說這種時候怎麼辦?
 
 沒工具就自己寫啊!
 
@@ -44,9 +47,7 @@ chhi̍h Góa anchng↓
 
 把想查的字選起來後按滑鼠右鍵就可以查了!
 
-安裝按我↓
-
-[![Chhōe Tâigí Webstore](/images/chrome_web_store.png)](https://goo.gl/qod78G)
+[![Chhōe Tâigí Webstore](/src/images/chrome_web_store.png)]([https://goo.gl/qod78G](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah))
 
 ---
 
