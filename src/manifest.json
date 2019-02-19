@@ -1,8 +1,11 @@
 {
-    "name": "Chhōe Tâigí",
-    "description": "Hō͘ pīntōaⁿlâng ê Chhōe Tâigí Sûtián kesi",
-    "version": "0.1.1",
+    "name": "ChhoeTaigi 找台語",
+    "description": "Hō͘ pīntōaⁿlâng ê Google Chrome Chhōe Tâigí Sûtián kesi",
+    "version": "0.1.2",
     "manifest_version": 2,
+    "browser_action": {
+        "default_icon": "images/icon128.png"
+    },
     "icons": {
         "16":  "images/icon16.png",
         "32":  "images/icon32.png",
