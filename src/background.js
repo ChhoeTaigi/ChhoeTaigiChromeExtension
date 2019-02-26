@@ -53,19 +53,24 @@ chrome.contextMenus.removeAll(function () {
 
 // add action listener to the context menu
 chrome.contextMenus.onClicked.addListener(
-    (info, tab) => {
+    (info) => {
         let sMenuItemId = info.menuItemId
         let sSelection = info.selectionText
         let aResult = sMenuItemId.split("-")
-        let aMenuItem = {
-            'poj': 'spellingMethod=poj_unicode&spelling=',
-            'hoalo': 'spellingMethod=kiplmj_unicode&spelling=',
-            'hanlo': 'taibun=',
-            'hoabun': 'hoabun=',
-            'english': 'english_descriptions=',
-        }
-        let sUrl = 'https://chhoe.taigi.info/search?method=basic&searchMethod='
-        sUrl += aResult['1'] + "&" + aMenuItem[aResult["0"]] + sSelection
-        chrome.tabs.create({url: sUrl})
+        console.log(aResult);
+        let url = getSearchUrl(sSelection, aResult[0], aResult[1])
+        chrome.tabs.create({url: url})
     }
 )
+
+function getSearchUrl(selectionText, spellingMethod, searchMethod) {
+    let aMenuItem = {
+        'poj': 'spellingMethod=poj_unicode&spelling=',
+        'hoalo': 'spellingMethod=kiplmj_unicode&spelling=',
+        'hanlo': 'taibun=',
+        'hoabun': 'hoabun=',
+        'english': 'english_descriptions=',
+    }
+    let url = 'https://chhoe.taigi.info/search?method=basic&searchMethod=' + searchMethod + "&" + aMenuItem[spellingMethod] + selectionText
+    return url
+}
