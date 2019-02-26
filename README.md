@@ -1,7 +1,9 @@
 # ChhoeTaigiChromeExtension
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/edkmnkmcckbdmiobolimneaeomiiaiah.svg)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/edkmnkmcckbdmiobolimneaeomiiaiah.svg)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-lightgray.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/d/edkmnkmcckbdmiobolimneaeomiiaiah.svg?style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/stars/edkmnkmcckbdmiobolimneaeomiiaiah.svg?style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/edkmnkmcckbdmiobolimneaeomiiaiah.svg?style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-lightgray.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
+[![](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://watain666.github.io/)
 
 ---
 
@@ -25,9 +27,13 @@ só͘í chit ê kesi tio̍h seⁿ chhutlâi--ah
 
 súiōng hongsek chin kántan
 
-kā beh chhōe ê jī kho͘ --khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--á!
+kā beh chhōe ê jī kho͘--khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--ah!
+![selected_menu](/src/images/selected_menu.gif)
 
-[![Chhōe Tâigí Webstore](/src/images/chrome_web_store.png)]([https://goo.gl/qod78G](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah))
+mā ēsái kā beh chhōe ê jī kho͘--khílâi ji̍h icon tio̍h ēsái chhōe Pe̍hōejī--ah!
+![click_icon](/src/images/click_icon.gif)
+
+[![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
 ---
 
@@ -35,19 +41,23 @@ kā beh chhōe ê jī kho͘ --khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍
 
 [Chhōe Tâigí](https://chhoe.taigi.info/) 是一個很好用的台語辭典網站
 
-不過在網路上看到不會的字就要打開網站, 一個字一個字去查, 實在是很費功夫
+不過在網路上看到不會的字就要打開網站，一個字一個字去查實在是很費功夫
 
-你說這種時候怎麼辦?
+你說這種時候怎麼辦？
 
-沒工具就自己寫啊!
+沒工具就自己寫啊！
 
-所以這個工具就這樣生出來了!
+所以這個工具就這樣生出來了！
 
 使用的方式很簡單
 
-把想查的字選起來後按滑鼠右鍵就可以查了!
+把想查的字選起來後按滑鼠右鍵就可以查了！
+![selected_menu](/src/images/selected_menu.gif)
 
-[![Chhōe Tâigí Webstore](/src/images/chrome_web_store.png)]([https://goo.gl/qod78G](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah))
+也可以把想查的字選起來後按 icon 就可以查白話字了！
+![click_icon](/src/images/click_icon.gif)
+
+[![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
 ---
 
