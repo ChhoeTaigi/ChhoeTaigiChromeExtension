@@ -30,7 +30,12 @@ súiōng hongsek chin kántan
 kā beh chhōe ê jī kho͘--khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--ah!
 ![selected_menu](/src/images/selected_menu.gif)
 
-mā ēsái kā beh chhōe ê jī kho͘--khílâi ji̍h icon tio̍h ēsái chhōe Pe̍hōejī--ah!
+mā ēsái kā beh chhōe ê jī kho͘--khílâi chhi̍h icon tio̍h ē kah kiatkó ēng popup windown khui chhutlâi
+
+(bo̍kchêng kanna ēsái chhōe Pe̍hōejī)
+![selected_click_icon](/src/images/selected_click_icon.gif)
+
+nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí](https://chhoe.taigi.info/) ê bāngchām!
 ![click_icon](/src/images/click_icon.gif)
 
 [![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
@@ -54,7 +59,12 @@ mā ēsái kā beh chhōe ê jī kho͘--khílâi ji̍h icon tio̍h ēsái chhōe
 把想查的字選起來後按滑鼠右鍵就可以查了！
 ![selected_menu](/src/images/selected_menu.gif)
 
-也可以把想查的字選起來後按 icon 就可以查白話字了！
+也可以把想查的字選起來後按 icon 就會把結果顯示在浮動視窗
+
+(目前只能查白話字)
+![selected_click_icon](/src/images/selected_click_icon.gif)
+
+若是直接按 icon 就會彈出浮動視窗到 [Chhōe Tâigí](https://chhoe.taigi.info/) 的網站！
 ![click_icon](/src/images/click_icon.gif)
 
 [![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_340x96.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
