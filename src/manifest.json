@@ -1,17 +1,17 @@
 {
     "name": "ChhoeTaigi 找台語",
-    "description": "Hō͘ pīntōaⁿlâng ê Google Chrome Chhōe Tâigí Sûtián kesi",
-    "version": "0.1.4",
+    "description": "Hō͘ pīntōaⁿlâng ê Chhōe Tâigí Sûtián kesi",
+    "version": "0.1.6",
     "manifest_version": 2,
     "browser_action": {
-        "default_icon": "images/icon128.png",
+        "default_icon": "icons/icon128.png",
         "default_popup": "popup.html"
     },
     "icons": {
-        "16":  "images/icon16.png",
-        "32":  "images/icon32.png",
-        "48":  "images/icon48.png",
-        "128": "images/icon128.png"
+        "16":  "icons/icon16.png",
+        "32":  "icons/icon32.png",
+        "48":  "icons/icon48.png",
+        "128": "icons/icon128.png"
     },
     "background": {
         "scripts": ["background.js"]
@@ -21,5 +21,12 @@
         "tabs",
         "activeTab",
         "https://chhoe.taigi.info/"
-    ]
+    ],
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "default": "Alt+Shift+P"
+            }
+        }
+    }
 }
