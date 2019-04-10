@@ -6,7 +6,7 @@ chrome.tabs.executeScript(
   },
   function(selection) {
     if (selection) {
-      const query = encodeURIComponent(selection[0]);
+      const query = encodeURIComponent(selection[0].trim());
       const url = getSearchUrl(query, "poj", "equals");
       document.querySelector("iframe").src = url;
     }

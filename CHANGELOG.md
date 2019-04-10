@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.1.6] - 2019-04-10
+### Fixed
+- Use trim() Removes whitespace from selected text both ends of a string
+### Changed
+- popup height to 600px
+### Added
+- Keyboard shortcuts for activate the extension
+
 ## [0.1.4] - 2019-03-14
 ### Fixed
 - Click icon search selected Pe̍hōejī text, open a popup windows.
