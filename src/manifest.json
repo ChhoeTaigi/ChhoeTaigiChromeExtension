@@ -1,32 +1,42 @@
 {
-    "name": "ChhoeTaigi 找台語",
-    "description": "Hō͘ pīntōaⁿlâng ê Chhōe Tâigí Sûtián kesi",
-    "version": "0.1.6",
-    "manifest_version": 2,
-    "browser_action": {
-        "default_icon": "icons/icon128.png",
-        "default_popup": "popup.html"
-    },
-    "icons": {
-        "16":  "icons/icon16.png",
-        "32":  "icons/icon32.png",
-        "48":  "icons/icon48.png",
-        "128": "icons/icon128.png"
-    },
-    "background": {
-        "scripts": ["background.js"]
-    },
-    "permissions": [
-        "contextMenus",
-        "tabs",
-        "activeTab",
-        "https://chhoe.taigi.info/"
+  "name": "ChhoeTaigi 找台語",
+  "description": "Hō͘ pīntōaⁿlâng ê Chhōe Tâigí Sûtián kesi",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_title": "ChhoeTaigi 找台語",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
     ],
-    "commands": {
-        "_execute_browser_action": {
-            "suggested_key": {
-                "default": "Alt+Shift+P"
-            }
-        }
+    "persistent": true
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": false,
+    "open_in_tab": false
+  },
+  "permissions": [
+    "clipboardRead",
+    "storage",
+    "contextMenus",
+    "tabs",
+    "activeTab",
+    "https://chhoe.taigi.info/"
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      }
     }
+  }
 }
