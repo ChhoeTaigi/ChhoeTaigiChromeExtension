@@ -1,6 +1,6 @@
 {
   "name": "ChhoeTaigiChromeExtension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chhōe Tâigí ê web extension",
   "author": "watain666 <watain666666@gmail.com>",
   "license": "LGPL-3.0-or-later",
@@ -11,6 +11,7 @@
     "build": "cross-env NODE_ENV=production webpack --hide-modules",
     "build:dev": "cross-env NODE_ENV=development webpack --hide-modules",
     "build-zip": "node scripts/build-zip.js",
+    "src-zip": "node scripts/src-zip.js",
     "watch": "npm run build -- --watch",
     "watch:dev": "cross-env HMR=true npm run build:dev -- --watch"
   },

@@ -5,7 +5,7 @@
 
 <script>
 import { getSearchUrl } from '../background.js'
-import Browser from 'webextension-polyfill'
+import browser from 'webextension-polyfill'
 
 export default {
   data () {
@@ -15,22 +15,28 @@ export default {
   },
   mounted () {
     const _self = this
-    chrome.tabs.executeScript(
+    _self.searchInPopup()
+  },
+  methods: {
+    searchInPopup() {
+      const _self = this
+      chrome.tabs.executeScript(
       {
         code: 'window.getSelection().toString()'
       },
       async function (selection) {
         if (selection) {
           const query = encodeURIComponent(selection[0].trim())
-          const { spellingMethod } = await Browser.storage.local.get({ spellingMethod: 'poj' })
-          const { searchMethod } = await Browser.storage.local.get({ searchMethod: 'equals' })
+          const { spellingMethod } = await browser.storage.local.get({ spellingMethod: 'poj' })
+          const { searchMethod } = await browser.storage.local.get({ searchMethod: 'equals' })
           _self.url = getSearchUrl(query, spellingMethod, searchMethod)
         }
       }
-    ), _ => {
-      const e = chrome.runtime.lastError
-      if (e !== undefined) {
-        console.log(tabId, _, e)
+      ), _ => {
+        const e = chrome.runtime.lastError
+        if (e !== undefined) {
+          console.log(tabId, _, e)
+        }
       }
     }
   }

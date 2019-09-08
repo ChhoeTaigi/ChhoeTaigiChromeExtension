@@ -21,7 +21,7 @@
           </select>
         </li>
       </ul>
-      <button @click="configSave()">Submit</button>
+      <button @click="setConfig()">Submit</button>
         <transition name="msg">
           <span id="savedMessage" v-show="savedMessage">Saved</span>
         </transition>
@@ -30,7 +30,8 @@
 </template>
 
 <script>
-import Browser from 'webextension-polyfill'
+import browser from 'webextension-polyfill'
+
 export default {
   name: 'App',
 
@@ -53,19 +54,19 @@ export default {
     }
   },
   mounted () {
-    this.defaultConfig()
+    this.getConfig()
   },
   methods: {
-    async defaultConfig () {
-      const data = await Browser.storage.local.get({
+    async getConfig () {
+      const data = await browser.storage.local.get({
         searchMethod: 'equals',
         spellingMethod: 'poj'
       })
       this.searchMethod = data.searchMethod
       this.spellingMethod = data.spellingMethod
     },
-    configSave () {
-      Browser.storage.local.set(
+    setConfig () {
+      browser.storage.local.set(
         {
           searchMethod: this.searchMethod,
           spellingMethod: this.spellingMethod,

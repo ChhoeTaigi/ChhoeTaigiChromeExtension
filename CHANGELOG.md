@@ -4,8 +4,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2019-09-09
+### Fixed
+- Readme file typo and some markdown style issue
+### Added
+- src-zip script use for Firefox add-on submit source code
+### Changed
+- Rename some variables and function
+- Use browser instead of chrome if can be
+
 ## [1.0.0] - 2019-08-30
-### Add
+### Added
 - Firefox add-on use webextension-polyfill
 - Right click icon to open chhoe taigi home page
 - Option page

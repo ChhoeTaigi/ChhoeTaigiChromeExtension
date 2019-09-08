@@ -1,4 +1,5 @@
 # ChhoeTaigiChromeExtension
+
 [![Chrome Web Store version](https://img.shields.io/chrome-web-store/v/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%234f8cc9&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
 [![Chrome Web Store users](https://img.shields.io/chrome-web-store/d/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%23e05d44&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
 [![Chrome Web Store rating](https://img.shields.io/chrome-web-store/stars/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%2344cc11&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
@@ -6,11 +7,11 @@
 [![Firefox add-on users](https://img.shields.io/amo/users/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%23e05d44&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 [![Firefox add-on rating](https://img.shields.io/amo/stars/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%2344cc11&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-lightgray.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
-[![](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://watain666.github.io/)
+[![Made with love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://watain666.github.io/)
 
 ---
 
-![](/resource/img1.png)
+![preview](/resource/img1.png)
 
 Hō͘ pīntōaⁿlâng ê [Chhōe Tâigí](https://chhoe.taigi.info/) Sûtián kesi
 
@@ -33,18 +34,18 @@ súiōng hongsek chin kántan
 kā beh chhōe ê jī kho͘--khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--ah!
 ![selected_menu](/resource/selected_menu.gif)
 
-mā ēsái kā beh chhōe ê jī kho͘--khílâi chhi̍h icon tio̍h ē kah kiatkó ēng popup windown khui chhutlâi
+mā ēsái kā beh chhōe ê jī kho͘--khílâi chhi̍h icon tio̍h ē kah kiatkó ēng popup windows khui chhutlâi
 ![selected_click_icon](/resource/selected_click_icon.gif)
 
-beh ánnóa chhōe ēsái tī Option sekténg
+beh ánnóa chhōe ēsái tī Option siattēng
 ![option](/resource/option.png)
 
 nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí](https://chhoe.taigi.info/) ê bāngchām!
 ![click_icon](/resource/click_icon.gif)
 
-[![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
@@ -74,9 +75,9 @@ nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí
 若是直接按 icon 就會彈出浮動視窗到 [Chhōe Tâigí](https://chhoe.taigi.info/) 的網站！
 ![click_icon](/resource/click_icon.gif)
 
-[![](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
@@ -91,10 +92,10 @@ nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí
 ### Usage
 
 ```bash
-$ git clone git@github.com:ChhoeTaigi/ChhoeTaigiChromeExtension.git
-$ cd ChhoeTaigiChromeExtension
-$ npm install
-$ npm run build
+git clone git@github.com:ChhoeTaigi/ChhoeTaigiChromeExtension.git
+cd ChhoeTaigiChromeExtension
+npm install
+npm run build
 ```
 
 #### `npm run build`
@@ -121,6 +122,11 @@ It also enable [Hot Module Reloading](https://webpack.js.org/concepts/hot-module
 
 Build a zip file following this format `<name>-v<version>.zip`, by reading `name` and `version` from `manifest.json` file.
 Zip file is located in `dist-zip` folder.
+
+#### `npm run src-zip`
+
+Build a zip file following this format `<name>-v<version>.zip`, by reading `name` and `version` from `manifest.json` file.
+Zip file is located in `src-zip` folder.
 
 ## License
 
