@@ -43,9 +43,9 @@ beh ánnóa chhōe ēsái tī Option siattēng
 nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí](https://chhoe.taigi.info/) ê bāngchām!
 ![click_icon](/resource/click_icon.gif)
 
-[![Download from Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](/resource/badges/chrome_web_store_badge_with_border_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![Download from Firefox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](/resource/badges/firefox_addons_badge_with_border_v2_206x58.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
@@ -75,9 +75,9 @@ nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí
 若是直接按 icon 就會彈出浮動視窗到 [Chhōe Tâigí](https://chhoe.taigi.info/) 的網站！
 ![click_icon](/resource/click_icon.gif)
 
-[![Download from Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](/resource/badges/chrome_web_store_badge_with_border_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![Download from Firefox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](/resource/badges/firefox_addons_badge_with_border_v2_206x58.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
