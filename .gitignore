@@ -1,3 +1,10 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### work file ###
 /node_modules
 /*.log
 /dist
