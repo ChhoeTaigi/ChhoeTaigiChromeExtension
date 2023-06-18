@@ -1,17 +1,15 @@
 # ChhoeTaigiChromeExtension
 
+[![Firefox add-on version](https://img.shields.io/amo/v/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%234f8cc9&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 [![Chrome Web Store version](https://img.shields.io/chrome-web-store/v/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%234f8cc9&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
 [![Chrome Web Store users](https://img.shields.io/chrome-web-store/d/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%23e05d44&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
 [![Chrome Web Store rating](https://img.shields.io/chrome-web-store/stars/edkmnkmcckbdmiobolimneaeomiiaiah.svg?color=%2344cc11&style=flat-square)](https://chrome.google.com/webstore/detail/bookmark-sidebar/edkmnkmcckbdmiobolimneaeomiiaiah)
-[![Firefox add-on version](https://img.shields.io/amo/v/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%234f8cc9&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
-[![Firefox add-on users](https://img.shields.io/amo/users/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%23e05d44&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
-[![Firefox add-on rating](https://img.shields.io/amo/stars/{e64496aa-3d43-4ca1-8a73-f621d876c784}?color=%2344cc11&style=flat-square)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-lightgray.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPLv3](https://img.shields.io/badge/License-GPLv3-lightgray.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0)
 [![Made with love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg?style=flat-square)](https://watain666.github.io/)
 
 ---
 
-![preview](/resource/img1.png)
+![preview](/resource/store/c1_1280_800.png)
 
 Hō͘ pīntōaⁿlâng ê [Chhōe Tâigí](https://chhoe.taigi.info/) Sûtián kesi
 
@@ -32,20 +30,20 @@ só͘í chit ê kesi tio̍h seⁿ chhutlâi--ah
 súiōng hongsek chin kántan
 
 kā beh chhōe ê jī kho͘--khílâi chhi̍h niauchhí á chiaⁿ pêng, tio̍h sûi ēsái chhōe--ah!
-![selected_menu](/resource/selected_menu.gif)
+![selected_menu](/resource/gif/selected_menu.gif)
 
 mā ēsái kā beh chhōe ê jī kho͘--khílâi chhi̍h icon tio̍h ē kah kiatkó ēng popup windows khui chhutlâi
-![selected_click_icon](/resource/selected_click_icon.gif)
+![selected_click_icon](/resource/gif/selected_click_icon.gif)
 
 beh ánnóa chhōe ēsái tī Option siattēng
-![option](/resource/option.png)
+![option](/resource/store/c3_1280_800.png)
 
 nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí](https://chhoe.taigi.info/) ê bāngchām!
-![click_icon](/resource/click_icon.gif)
+![click_icon](/resource/gif/click_icon.gif)
 
-[![Download from Chrome Web Store](/resource/badges/chrome_web_store_badge_with_border_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](/resource/badges/get_it_on_chrome.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![Download from Firefox Add-on](/resource/badges/firefox_addons_badge_with_border_v2_206x58.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](/resource/badges/get_it_on_firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
@@ -64,20 +62,20 @@ nāsī ti̍tchiap chhi̍h icon tio̍h ē khui popup windown kàu [Chhōe Tâigí
 使用的方式很簡單
 
 把想查的字選起來後按滑鼠右鍵就可以查了！
-![selected_menu](/resource/selected_menu.gif)
+![selected_menu](/resource/gif/selected_menu.gif)
 
 也可以把想查的字選起來後按 icon 就會把結果顯示在浮動視窗
-![selected_click_icon](/resource/selected_click_icon.gif)
+![selected_click_icon](/resource/gif/selected_click_icon.gif)
 
 要怎麼查可以在選項頁面設置
-![option](/resource/option.png)
+![option](/resource/store/c3_1280_800.png)
 
 若是直接按 icon 就會彈出浮動視窗到 [Chhōe Tâigí](https://chhoe.taigi.info/) 的網站！
-![click_icon](/resource/click_icon.gif)
+![click_icon](/resource/gif/click_icon.gif)
 
-[![Download from Chrome Web Store](/resource/badges/chrome_web_store_badge_with_border_v2_206x58.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
+[![Download from Chrome Web Store](/resource/badges/get_it_on_chrome.png)](https://chrome.google.com/webstore/detail/edkmnkmcckbdmiobolimneaeomiiaiah)
 
-[![Download from Firefox Add-on](/resource/badges/firefox_addons_badge_with_border_v2_206x58.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
+[![Download from Firefox Add-on](/resource/badges/get_it_on_firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/chhoetaigi-%E6%89%BE%E5%8F%B0%E8%AA%9E/)
 
 ---
 
