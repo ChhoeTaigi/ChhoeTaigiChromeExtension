@@ -1,6 +1,23 @@
-global.browser = require('webextension-polyfill')
+const browser = require('webextension-polyfill')
 
-setContextMenus()
+globalThis.browser = browser
+
+function getSearchUrl(selectionText, spellingMethod, searchMethod) {
+  const menuItems = {
+    poj: 'spellingMethod=poj_unicode&spelling=',
+    hoalo: 'spellingMethod=kiplmj_unicode&spelling=',
+    hanlo: 'taibun=',
+    hoabun: 'hoabun=',
+    english: 'english_descriptions='
+  }
+  let url = 'https://chhoe.taigi.info/'
+  url += selectionText ? `search?method=basic&searchMethod=${searchMethod}&${menuItems[spellingMethod]}${selectionText}` : ''
+  return url
+}
+
+browser.runtime.onInstalled.addListener(() => {
+  setContextMenus()
+})
 
 browser.contextMenus.onClicked.addListener(info => {
   const menuItemId = info.menuItemId
@@ -10,13 +27,13 @@ browser.contextMenus.onClicked.addListener(info => {
   browser.tabs.create({ url: url })
 })
 
-export function setContextMenus () {
+function setContextMenus() {
   browser.contextMenus.removeAll()
   browser.contextMenus.create({
     id: 'poj-equals-open-chhoe-taigi',
     type: 'normal',
     title: '開 Chhoe Taigi 找台語 佇新頁',
-    contexts: ['browser_action']
+    contexts: ['action']
   })
   browser.contextMenus.create({
     id: 'poj-equals',
@@ -68,17 +85,4 @@ export function setContextMenus () {
     title: '對應英文 (相關--ê)',
     contexts: ['selection']
   })
-}
-
-export function getSearchUrl (selectionText, spellingMethod, searchMethod) {
-  const menuItems = {
-    poj: 'spellingMethod=poj_unicode&spelling=',
-    hoalo: 'spellingMethod=kiplmj_unicode&spelling=',
-    hanlo: 'taibun=',
-    hoabun: 'hoabun=',
-    english: 'english_descriptions='
-  }
-  let url = 'https://chhoe.taigi.info/'
-  url += selectionText ? `search?method=basic&searchMethod=${searchMethod}&${menuItems[spellingMethod]}${selectionText}` : ''
-  return url
 }

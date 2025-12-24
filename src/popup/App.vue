@@ -4,8 +4,20 @@
 </template>
 
 <script>
-import { getSearchUrl } from '../background.js'
 import browser from 'webextension-polyfill'
+
+function getSearchUrl(selectionText, spellingMethod, searchMethod) {
+    const menuItems = {
+        poj: 'spellingMethod=poj_unicode&spelling=',
+        hoalo: 'spellingMethod=kiplmj_unicode&spelling=',
+        hanlo: 'taibun=',
+        hoabun: 'hoabun=',
+        english: 'english_descriptions='
+    }
+    let url = 'https://chhoe.taigi.info/'
+    url += selectionText ? `search?method=basic&searchMethod=${searchMethod}&${menuItems[spellingMethod]}${selectionText}` : ''
+    return url
+}
 
 export default {
   data () {
@@ -18,25 +30,26 @@ export default {
     _self.searchInPopup()
   },
   methods: {
-    searchInPopup() {
+    async searchInPopup() {
       const _self = this
-      chrome.tabs.executeScript(
-      {
-        code: 'window.getSelection().toString()'
-      },
-      async function (selection) {
-        if (selection) {
-          const query = encodeURIComponent(selection[0].trim())
+      const tabs = await browser.tabs.query({ active: true, currentWindow: true })
+      if (tabs.length === 0) return
+
+      try {
+        const results = await chrome.scripting.executeScript({
+          target: { tabId: tabs[0].id },
+          func: () => window.getSelection().toString()
+        })
+
+        if (results && results[0] && results[0].result) {
+          const selection = results[0].result
+          const query = encodeURIComponent(selection.trim())
           const { spellingMethod } = await browser.storage.local.get({ spellingMethod: 'poj' })
           const { searchMethod } = await browser.storage.local.get({ searchMethod: 'equals' })
           _self.url = getSearchUrl(query, spellingMethod, searchMethod)
         }
-      }
-      ), _ => {
-        const e = chrome.runtime.lastError
-        if (e !== undefined) {
-          console.log(tabId, _, e)
-        }
+      } catch (e) {
+        console.log(e)
       }
     }
   }
